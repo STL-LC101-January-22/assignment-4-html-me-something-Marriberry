@@ -85,21 +85,14 @@ figcaption {
 .container {
     display: grid;
     grid-template-areas:
-    'h h'
     'm m'
     'a1 a2'
     'a3 a3'
-    'a4 a4'
-    'f f';
+    'a4 a4';
 }
 
 .item  {
     padding: 20px;
-}
-
-header {
-    grid-area: h;
-    border: 1px solid black;
 }
 
 #abtMe {
@@ -123,6 +116,5 @@ header {
 }
 
 footer {
-    grid-area: f;
     font-weight: bold;
 }
